@@ -3,93 +3,75 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="title" content="Understanding the Effects of Distractors on Reasoning Vision-Language Models">
+  <meta name="description" content="Idis: a VQA benchmark suite with controlled visual, typographic and textual distractors. Visual distractors lower the accuracy of reasoning VLMs without lengthening reasoning, unlike textual distractors.">
+  <meta name="keywords" content="Idis, distractors, reasoning vision-language models, test-time scaling, inverse scaling, VQA benchmark, ImageNet-9, MathVerse, EMNLP 2026">
+  <meta name="author" content="Jiyun Bae, Hyunjong Ok, Sangwoo Mo, Jaeho Lee">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
-  
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:site_name" content="EffL @ POSTECH">
+  <meta property="og:title" content="Understanding the Effects of Distractors on Reasoning Vision-Language Models">
+  <meta property="og:description" content="Idis: a VQA benchmark suite with controlled visual, typographic and textual distractors. Visual distractors lower the accuracy of reasoning VLMs without lengthening reasoning, unlike textual distractors.">
+  <meta property="og:url" content="https://idis-rvlms.github.io/">
+  <meta property="og:image" content="https://idis-rvlms.github.io/static/images/social_preview.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="og:image:alt" content="Idis construction pipeline">
+  <meta property="article:published_time" content="2025-11-26T00:00:00.000Z">
+  <meta property="article:author" content="Jiyun Bae">
   <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
+  <meta property="article:tag" content="reasoning vision-language models">
+  <meta property="article:tag" content="distractors">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta name="twitter:title" content="Understanding the Effects of Distractors on Reasoning Vision-Language Models">
+  <meta name="twitter:description" content="Idis: a VQA benchmark suite with controlled visual, typographic and textual distractors. Visual distractors lower the accuracy of reasoning VLMs without lengthening reasoning, unlike textual distractors.">
+  <meta name="twitter:image" content="https://idis-rvlms.github.io/static/images/social_preview.png">
+  <meta name="twitter:image:alt" content="Idis construction pipeline">
 
   <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
-  
+  <meta name="citation_title" content="Understanding the Effects of Distractors on Reasoning Vision-Language Models">
+  <meta name="citation_author" content="Bae, Jiyun">
+  <meta name="citation_author" content="Ok, Hyunjong">
+  <meta name="citation_author" content="Mo, Sangwoo">
+  <meta name="citation_author" content="Lee, Jaeho">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_conference_title" content="Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)">
+  <meta name="citation_arxiv_id" content="2511.21397">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2511.21397">
+
   <!-- Additional SEO -->
   <meta name="theme-color" content="#2563eb">
   <meta name="msapplication-TileColor" content="#2563eb">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
+
   <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://ajax.googleapis.com">
-  <link rel="preconnect" href="https://documentcloud.adobe.com">
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
+  <title>Understanding the Effects of Distractors on Reasoning Vision-Language Models</title>
 
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
-  
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
-  
+  <link rel="apple-touch-icon" href="static/images/apple-touch-icon.png">
+
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-  
+
   <!-- Non-critical CSS - Load asynchronously -->
   <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
+
   <!-- Fallback for browsers that don't support preload -->
   <noscript>
     <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
@@ -97,380 +79,370 @@
     <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   </noscript>
-  
+
   <!-- Fonts - Optimized loading -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
+
   <!-- Defer non-critical JavaScript -->
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
   <script defer src="static/js/fontawesome.all.min.js"></script>
   <script defer src="static/js/bulma-carousel.min.js"></script>
   <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
-  
+
   <!-- Structured Data for Academic Papers -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "headline": "Understanding the Effects of Distractors on Reasoning Vision-Language Models",
+    "description": "Idis: a VQA benchmark suite with controlled visual, typographic and textual distractors. Visual distractors lower the accuracy of reasoning VLMs without lengthening reasoning, unlike textual distractors.",
     "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
+      {"@type": "Person", "name": "Jiyun Bae", "affiliation": {"@type": "Organization", "name": "Pohang University of Science and Technology (POSTECH)"}},
+      {"@type": "Person", "name": "Hyunjong Ok", "affiliation": {"@type": "Organization", "name": "Pohang University of Science and Technology (POSTECH)"}},
+      {"@type": "Person", "name": "Sangwoo Mo", "affiliation": {"@type": "Organization", "name": "Pohang University of Science and Technology (POSTECH)"}},
+      {"@type": "Person", "name": "Jaeho Lee", "affiliation": {"@type": "Organization", "name": "Pohang University of Science and Technology (POSTECH)"}}
     ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
-  }
-  </script>
-  
-  <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
+    "datePublished": "2025-11-26",
+    "publisher": {"@type": "Organization", "name": "EMNLP 2026"},
+    "url": "https://idis-rvlms.github.io/",
+    "image": "https://idis-rvlms.github.io/static/images/social_preview.png",
+    "sameAs": "https://arxiv.org/abs/2511.21397",
+    "keywords": ["Idis", "distractors", "reasoning vision-language models", "test-time scaling", "inverse scaling", "VQA benchmark"],
+    "isAccessibleForFree": true
   }
   </script>
 </head>
 <body>
-
 
   <!-- Scroll to Top Button -->
   <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-
   <main id="main-content">
+
+  <!-- Header / hero -->
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Understanding the Effects of Distractors on Reasoning Vision-Language Models</h1>
             <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+                <a href="https://effl.postech.ac.kr/docs/people/member/jiyunbae/" target="_blank">Jiyun Bae</a>,</span>
+              <span class="author-block">
+                <a href="https://hj-ok.github.io/" target="_blank">Hyunjong Ok</a>,</span>
+              <span class="author-block">
+                <a href="https://sites.google.com/view/sangwoomo" target="_blank">Sangwoo Mo</a>,</span>
+              <span class="author-block">
+                <a href="https://jaeho-lee.github.io/" target="_blank">Jaeho Lee</a></span>
+            </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Pohang University of Science and Technology (POSTECH)</span>
+            </div>
+            <div class="publication-venue">EMNLP 2026</div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- Paper PDF -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2511.21397" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                    <span>Paper</span>
+                  </a>
+                </span>
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
+                <!-- arXiv -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2511.21397" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="ai ai-arxiv"></i></span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
 
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
+                <!-- Code -->
+                <span class="link-block">
+                  <a href="https://github.com/effl-lab/Idis" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fab fa-github"></i></span>
                     <span>Code</span>
                   </a>
                 </span>
 
-                <!-- TODO: Update with your arXiv paper ID -->
+                <!-- Dataset: TODO uncomment once the images are hosted (e.g. Hugging Face Hub)
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+                  <a href="https://huggingface.co/datasets/TODO" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-database"></i></span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+                -->
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
+  <!-- Teaser -->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body has-text-centered">
+        <img src="static/images/figure1_teaser.png" class="teaser-image"
+             alt="Test-time scaling of reasoning LMs vs. reasoning VLMs under distractors"/>
         <h2 class="subtitle has-text-centered">
-          First image description.
+          Textual distractors make reasoning language models think longer and get worse.
+          Visual distractors affect reasoning vision-language models differently:
+          they lower accuracy <b>without</b> lengthening the reasoning trace, shifting the whole
+          length&ndash;accuracy curve downward.
         </h2>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
     </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
+  </section>
 
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+  <!-- Abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              How does irrelevant information (i.e., distractors) affect test-time scaling in vision-language models (VLMs)?
+              Prior work on text-only language models has shown that textual distractors can intensify inverse scaling,
+              causing models to reason longer but less effective reasoning traces. In this work, we investigate whether
+              similar phenomena arise in multimodal settings. We introduce <b>Idis</b> (<b>I</b>mages with <b>dis</b>tractors),
+              a visual question-answering dataset that systematically varies distractors along semantic and numerical
+              dimensions. Our analyses reveal that visual distractors affect reasoning VLMs in a fundamentally different way
+              from textual distractors: although inverse scaling still emerges, visual distractors reduce accuracy without
+              increasing reasoning length. We further show that attribute counts extracted from reasoning traces provide key
+              insights into how distractors interact with reasoning length and accuracy. As a sanity check, we propose a
+              simple prompting strategy that mitigates distractor-driven predictions in reasoning vision-language models.
+            </p>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- End youtube video -->
+  </section>
 
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
+  <!-- Idis dataset -->
+  <section class="section hero">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Idis: Images with Distractors</h2>
+          <div class="content has-text-justified">
+            <figure class="paper-figure">
+              <img src="static/images/figure2_pipeline.png" alt="Idis construction pipeline and VQA task prompt"/>
+              <figcaption>
+                Idis construction pipeline and VQA task prompt. Distractor-augmented images are produced through generative
+                editing (Idis-perception) or deterministic compositing (Idis-math) and manually validated through a
+                human-in-the-loop process. Yellow boxes mark distractor regions.
+              </figcaption>
+            </figure>
+            <p>
+              Idis is a VQA benchmark suite for studying how distractors shape the test-time scaling of reasoning VLMs.
+              It is built from two task families and comprises over <b>277k</b> images that keep the original target
+              information and answer while adding one or more distractors:
+            </p>
+            <ul>
+              <li><b>Idis-perception</b> &mdash; perception-centric object classification on the 4,050 images of
+                <a href="https://github.com/MadryLab/backgrounds_challenge" target="_blank">ImageNet-9</a> (9 classes).
+                Distractor objects are inserted with Gemini 2.5 Flash Image; typographic distractors render non-target
+                class names into the image.</li>
+              <li><b>Idis-math</b> &mdash; reasoning-centric visual math problems on the 3,152 <em>testmini</em> samples of
+                <a href="https://huggingface.co/datasets/AI4Math/MathVerse" target="_blank">MathVerse</a>.
+                Geometric figures or tables are composited around the diagram, handwritten math expressions serve as
+                typographic distractors, and Sonnet 4.5 writes answer-irrelevant sentences for textual distractors.</li>
+            </ul>
+            <p>Distractors are varied along three axes, each with a fixed base example so that changes in model behavior can be attributed to the distractor alone:</p>
+            <ul>
+              <li><b>Modality.</b> <em>Visual</em> objects inserted into the image, <em>typographic</em> text rendered into the image,
+                or <em>textual</em> sentences inserted into the question prompt.</li>
+              <li><b>Number.</b> One to four distractors per sample, all drawn from the same semantic category.</li>
+              <li><b>Semantics.</b> <em>Aligned</em> (a bird cage for &ldquo;bird&rdquo;; another circle for a circle problem),
+                <em>conflicting</em> (a bird cage for &ldquo;vehicle&rdquo;; a quadrilateral for a circle problem), or
+                <em>irrelevant</em> (a TV; a table).</li>
+            </ul>
+            <p>
+              Every sample passes iterative human verification: the target must remain unchanged, the answer preserved,
+              and each distractor must match its intended semantic category.
+            </p>
+          </div>
         </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
       </div>
     </div>
   </section>
-<!--End paper poster -->
 
+  <!-- Main results -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Main Results</h2>
+          <div class="content has-text-justified">
+            <p>
+              We evaluate four open-weight reasoning VLMs (Qwen3-VL-8B-Thinking, GLM-4.1V-9B-Thinking, Intern-S1-mini and
+              R1-OneVision-7B-RL) under <em>sequential</em> test-time scaling: for each question we sample five responses,
+              rank them by reasoning length, and report the accuracy of each rank.
+            </p>
+            <figure class="paper-figure">
+              <img src="static/images/fig3_num_distractors.png" alt="Test-time scaling vs. number of distractors"/>
+              <figcaption>
+                <b>Test-time scaling vs. number of distractors.</b> Rows: Idis-perception (top) and Idis-math (bottom).
+                Inserting more visual distractors does not extend the reasoning length; it shifts the
+                length&ndash;accuracy curve downward.
+              </figcaption>
+            </figure>
+            <p>
+              <b>Number of distractors.</b> In reasoning LMs, more textual distractors intensify inverse scaling by making
+              traces longer. In reasoning VLMs, additional visual distractors instead shift the curve downward while the range
+              of reasoning lengths stays essentially the same. On Idis-math the marginal effect of more than one distractor
+              is small, and for R1-OneVision the shape of the curve is preserved despite the shift.
+            </p>
+            <div class="columns is-vcentered">
+              <div class="column is-half">
+                <figure class="paper-figure">
+                  <img src="static/images/fig4_semantics.png" alt="Test-time scaling vs. distractor semantics"/>
+                  <figcaption><b>Distractor semantics</b> (Qwen3, four distractors). Conflicting distractors cause the largest downward shift.</figcaption>
+                </figure>
+              </div>
+              <div class="column is-half">
+                <figure class="paper-figure">
+                  <img src="static/images/fig5_linguistic.png" alt="Test-time scaling vs. linguistic distractors"/>
+                  <figcaption><b>Linguistic distractors</b> (Qwen3). Typographic distractors behave like visual ones; textual distractors lengthen reasoning.</figcaption>
+                </figure>
+              </div>
+            </div>
+            <p>
+              <b>Distractor semantics.</b> On Idis-perception, semantically <em>conflicting</em> distractors cause the largest
+              drop, whereas <em>aligned</em> distractors cause little to no degradation relative to the no-distractor baseline.
+              On Idis-math, <em>irrelevant</em> distractors (tables from LogicVista) hurt the most, presumably because they are the most
+              out-of-distribution for geometry problems. Number and semantics act alike: the severity of distraction grows with
+              more, or more confusing, distractors.
+            </p>
+            <p>
+              <b>Modality matters.</b> The same distracting information can be rendered into the image or written into the prompt.
+              Typographic distractors mirror visual distractors and shift the curve downward with limited change in reasoning length.
+              Textual distractors inserted into the prompt instead reproduce the pattern of reasoning LMs: accuracy drops because the
+              traces get longer. The <em>modality</em> of distraction, rather than whether the content is an object or a piece of text,
+              dominates the scaling behavior.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Analysis -->
+  <section class="section hero">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">A Closer Look: Distractor Attributes</h2>
+          <div class="content has-text-justified">
+            <p>
+              Why does accuracy fall when the trace does not get longer? We parse the visual attributes verbalized in each
+              reasoning trace (with DeepSeek-V3.2-Exp), link them to the target or to a distractor, and measure the
+              <em>distractor attribute ratio</em>: the fraction of attributes that describe distractors.
+            </p>
+            <div class="columns is-vcentered">
+              <div class="column is-half">
+                <figure class="paper-figure">
+                  <img src="static/images/fig6_attributes.png" alt="Distractor attributes as an indicator"/>
+                  <figcaption>
+                    <b>Distractor attributes as an indicator.</b> Top: as the number of distractors grows, the total number of
+                    attributes stays flat while the distractor attribute ratio rises. Bottom: the ratio is strongly tied to accuracy.
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="column is-half">
+                <figure class="paper-figure">
+                  <img src="static/images/fig7_closer_look.png" alt="Attention blocking and distractor area ratio"/>
+                  <figcaption>
+                    <b>(a)</b> Blocking the final answer's attention to distractor-attribute tokens improves accuracy, while blocking
+                    target-attribute tokens degrades it. <b>(b)</b> The distractor attribute ratio increases with the pixel area of the
+                    distractors and saturates higher when more distractors are present.
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <ul>
+              <li><b>The ratio, not the length, predicts failure.</b> On Idis-perception, accuracy stays above 97% when fewer than
+                20% of the attributes describe distractors and drops to near zero once the ratio exceeds 50%; Idis-math shows the same
+                cliff around 0.4.</li>
+              <li><b>The trace shapes the answer.</b> Attention blocking shows that attributes written into the trace causally
+                influence the final prediction, rather than merely rationalizing it.</li>
+              <li><b>Bigger and more distractors mean more distractor talk.</b> The ratio grows with the distractor area ratio and
+                with the number of distractors, which we confirm on a size-controlled variant, Idis-manual.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<!--BibTex citation -->
+  <!-- Prompt-based mitigation -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Sanity Check: Attribute-Guiding Prompt</h2>
+          <div class="content has-text-justified">
+            <p>
+              If distractor attributes in the trace drive wrong answers, suppressing them should help. As a sanity check we add
+              a short instruction to the original prompt that asks the model to reason from the target object alone, e.g.
+            </p>
+            <blockquote>
+              &ldquo;First identify the main object. Base your reasoning only on that object&rsquo;s own visual attributes.&rdquo;
+            </blockquote>
+            <div class="columns is-centered">
+              <div class="column is-three-quarters">
+                <figure class="paper-figure">
+                  <img src="static/images/fig8_prompt.png" alt="Attribute-guiding prompt results on Idis-perception and Waterbirds"/>
+                  <figcaption>
+                    <b>Attribute-guiding prompt.</b> Top: accuracy with and without the prompt on Idis-perception and Waterbirds.
+                    Bottom: the prompt lowers the distractor attribute ratio in the reasoning trace for every model.
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <p>
+              The prompt yields a small but consistent accuracy gain on Idis-perception (0.5&ndash;1.2 points) and a larger one on
+              <a href="https://github.com/kohpangwei/group_DRO" target="_blank">Waterbirds</a> (1.8&ndash;4.0 points), where the
+              distractor is the background rather than an inserted object. In both cases the gain coincides with a drop in the
+              distractor attribute ratio. Prompting alone is a limited fix, but it suggests that steering what a reasoning VLM
+              verbalizes about the image is a viable route to distractor-robust reasoning.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Acknowledgements: TODO fill in from the camera-ready version
+  <section class="section hero">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Acknowledgements</h2>
+          <div class="content has-text-justified">
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  -->
+
+  <!-- BibTeX -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <div class="bibtex-header">
@@ -480,41 +452,32 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
+      <pre id="bibtex-code"><code>@inproceedings{bae2026idis,
+  title     = {Understanding the Effects of Distractors on Reasoning Vision-Language Models},
+  author    = {Bae, Jiyun and Ok, Hyunjong and Mo, Sangwoo and Lee, Jaeho},
+  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year      = {2026}
 }</code></pre>
     </div>
-</section>
-<!--End BibTex citation -->
+  </section>
 
+  </main>
 
   <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</body>
+</html>
